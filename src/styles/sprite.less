@@ -1,0 +1,271 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@angle1-name: 'angle1';
+@angle1-x: 0px;
+@angle1-y: 0px;
+@angle1-offset-x: 0px;
+@angle1-offset-y: 0px;
+@angle1-width: 80px;
+@angle1-height: 57px;
+@angle1-total-width: 155px;
+@angle1-total-height: 131px;
+@angle1-image: '../images/sprite.png';
+@angle1: 0px 0px 0px 0px 80px 57px 155px 131px '../images/sprite.png' 'angle1';
+@angle2-name: 'angle2';
+@angle2-x: 80px;
+@angle2-y: 0px;
+@angle2-offset-x: -80px;
+@angle2-offset-y: 0px;
+@angle2-width: 61px;
+@angle2-height: 49px;
+@angle2-total-width: 155px;
+@angle2-total-height: 131px;
+@angle2-image: '../images/sprite.png';
+@angle2: 80px 0px -80px 0px 61px 49px 155px 131px '../images/sprite.png' 'angle2';
+@bag-button-name: 'bag-button';
+@bag-button-x: 0px;
+@bag-button-y: 57px;
+@bag-button-offset-x: 0px;
+@bag-button-offset-y: -57px;
+@bag-button-width: 38px;
+@bag-button-height: 42px;
+@bag-button-total-width: 155px;
+@bag-button-total-height: 131px;
+@bag-button-image: '../images/sprite.png';
+@bag-button: 0px 57px 0px -57px 38px 42px 155px 131px '../images/sprite.png' 'bag-button';
+@blue-bag-name: 'blue-bag';
+@blue-bag-x: 38px;
+@blue-bag-y: 57px;
+@blue-bag-offset-x: -38px;
+@blue-bag-offset-y: -57px;
+@blue-bag-width: 38px;
+@blue-bag-height: 42px;
+@blue-bag-total-width: 155px;
+@blue-bag-total-height: 131px;
+@blue-bag-image: '../images/sprite.png';
+@blue-bag: 38px 57px -38px -57px 38px 42px 155px 131px '../images/sprite.png' 'blue-bag';
+@cheked-price-left-name: 'cheked-price-left';
+@cheked-price-left-x: 141px;
+@cheked-price-left-y: 60px;
+@cheked-price-left-offset-x: -141px;
+@cheked-price-left-offset-y: -60px;
+@cheked-price-left-width: 8px;
+@cheked-price-left-height: 16px;
+@cheked-price-left-total-width: 155px;
+@cheked-price-left-total-height: 131px;
+@cheked-price-left-image: '../images/sprite.png';
+@cheked-price-left: 141px 60px -141px -60px 8px 16px 155px 131px '../images/sprite.png' 'cheked-price-left';
+@cheked-price-right-name: 'cheked-price-right';
+@cheked-price-right-x: 141px;
+@cheked-price-right-y: 76px;
+@cheked-price-right-offset-x: -141px;
+@cheked-price-right-offset-y: -76px;
+@cheked-price-right-width: 8px;
+@cheked-price-right-height: 16px;
+@cheked-price-right-total-width: 155px;
+@cheked-price-right-total-height: 131px;
+@cheked-price-right-image: '../images/sprite.png';
+@cheked-price-right: 141px 76px -141px -76px 8px 16px 155px 131px '../images/sprite.png' 'cheked-price-right';
+@current-price-circle-left-name: 'current-price-circle-left';
+@current-price-circle-left-x: 24px;
+@current-price-circle-left-y: 99px;
+@current-price-circle-left-offset-x: -24px;
+@current-price-circle-left-offset-y: -99px;
+@current-price-circle-left-width: 8px;
+@current-price-circle-left-height: 14px;
+@current-price-circle-left-total-width: 155px;
+@current-price-circle-left-total-height: 131px;
+@current-price-circle-left-image: '../images/sprite.png';
+@current-price-circle-left: 24px 99px -24px -99px 8px 14px 155px 131px '../images/sprite.png' 'current-price-circle-left';
+@current-price-circle-right-name: 'current-price-circle-right';
+@current-price-circle-right-x: 32px;
+@current-price-circle-right-y: 99px;
+@current-price-circle-right-offset-x: -32px;
+@current-price-circle-right-offset-y: -99px;
+@current-price-circle-right-width: 8px;
+@current-price-circle-right-height: 14px;
+@current-price-circle-right-total-width: 155px;
+@current-price-circle-right-total-height: 131px;
+@current-price-circle-right-image: '../images/sprite.png';
+@current-price-circle-right: 32px 99px -32px -99px 8px 14px 155px 131px '../images/sprite.png' 'current-price-circle-right';
+@hover-price-left-name: 'hover-price-left';
+@hover-price-left-x: 0px;
+@hover-price-left-y: 99px;
+@hover-price-left-offset-x: 0px;
+@hover-price-left-offset-y: -99px;
+@hover-price-left-width: 8px;
+@hover-price-left-height: 16px;
+@hover-price-left-total-width: 155px;
+@hover-price-left-total-height: 131px;
+@hover-price-left-image: '../images/sprite.png';
+@hover-price-left: 0px 99px 0px -99px 8px 16px 155px 131px '../images/sprite.png' 'hover-price-left';
+@hover-price-right-name: 'hover-price-right';
+@hover-price-right-x: 141px;
+@hover-price-right-y: 44px;
+@hover-price-right-offset-x: -141px;
+@hover-price-right-offset-y: -44px;
+@hover-price-right-width: 8px;
+@hover-price-right-height: 16px;
+@hover-price-right-total-width: 155px;
+@hover-price-right-total-height: 131px;
+@hover-price-right-image: '../images/sprite.png';
+@hover-price-right: 141px 44px -141px -44px 8px 16px 155px 131px '../images/sprite.png' 'hover-price-right';
+@like-name: 'like';
+@like-x: 76px;
+@like-y: 57px;
+@like-offset-x: -76px;
+@like-offset-y: -57px;
+@like-width: 31px;
+@like-height: 30px;
+@like-total-width: 155px;
+@like-total-height: 131px;
+@like-image: '../images/sprite.png';
+@like: 76px 57px -76px -57px 31px 30px 155px 131px '../images/sprite.png' 'like';
+@new-price-circle-left-name: 'new-price-circle-left';
+@new-price-circle-left-x: 0px;
+@new-price-circle-left-y: 115px;
+@new-price-circle-left-offset-x: 0px;
+@new-price-circle-left-offset-y: -115px;
+@new-price-circle-left-width: 7px;
+@new-price-circle-left-height: 16px;
+@new-price-circle-left-total-width: 155px;
+@new-price-circle-left-total-height: 131px;
+@new-price-circle-left-image: '../images/sprite.png';
+@new-price-circle-left: 0px 115px 0px -115px 7px 16px 155px 131px '../images/sprite.png' 'new-price-circle-left';
+@new-price-circle-right-name: 'new-price-circle-right';
+@new-price-circle-right-x: 16px;
+@new-price-circle-right-y: 99px;
+@new-price-circle-right-offset-x: -16px;
+@new-price-circle-right-offset-y: -99px;
+@new-price-circle-right-width: 8px;
+@new-price-circle-right-height: 15px;
+@new-price-circle-right-total-width: 155px;
+@new-price-circle-right-total-height: 131px;
+@new-price-circle-right-image: '../images/sprite.png';
+@new-price-circle-right: 16px 99px -16px -99px 8px 15px 155px 131px '../images/sprite.png' 'new-price-circle-right';
+@old-price-circle-left-name: 'old-price-circle-left';
+@old-price-circle-left-x: 8px;
+@old-price-circle-left-y: 99px;
+@old-price-circle-left-offset-x: -8px;
+@old-price-circle-left-offset-y: -99px;
+@old-price-circle-left-width: 8px;
+@old-price-circle-left-height: 16px;
+@old-price-circle-left-total-width: 155px;
+@old-price-circle-left-total-height: 131px;
+@old-price-circle-left-image: '../images/sprite.png';
+@old-price-circle-left: 8px 99px -8px -99px 8px 16px 155px 131px '../images/sprite.png' 'old-price-circle-left';
+@old-price-circle-right-name: 'old-price-circle-right';
+@old-price-circle-right-x: 131px;
+@old-price-circle-right-y: 57px;
+@old-price-circle-right-offset-x: -131px;
+@old-price-circle-right-offset-y: -57px;
+@old-price-circle-right-width: 8px;
+@old-price-circle-right-height: 16px;
+@old-price-circle-right-total-width: 155px;
+@old-price-circle-right-total-height: 131px;
+@old-price-circle-right-image: '../images/sprite.png';
+@old-price-circle-right: 131px 57px -131px -57px 8px 16px 155px 131px '../images/sprite.png' 'old-price-circle-right';
+@sale-bg-name: 'sale-bg';
+@sale-bg-x: 141px;
+@sale-bg-y: 0px;
+@sale-bg-offset-x: -141px;
+@sale-bg-offset-y: 0px;
+@sale-bg-width: 14px;
+@sale-bg-height: 44px;
+@sale-bg-total-width: 155px;
+@sale-bg-total-height: 131px;
+@sale-bg-image: '../images/sprite.png';
+@sale-bg: 141px 0px -141px 0px 14px 44px 155px 131px '../images/sprite.png' 'sale-bg';
+@sale-circle-right-name: 'sale-circle-right';
+@sale-circle-right-x: 40px;
+@sale-circle-right-y: 99px;
+@sale-circle-right-offset-x: -40px;
+@sale-circle-right-offset-y: -99px;
+@sale-circle-right-width: 7px;
+@sale-circle-right-height: 14px;
+@sale-circle-right-total-width: 155px;
+@sale-circle-right-total-height: 131px;
+@sale-circle-right-image: '../images/sprite.png';
+@sale-circle-right: 40px 99px -40px -99px 7px 14px 155px 131px '../images/sprite.png' 'sale-circle-right';
+@special-offer-name: 'special-offer';
+@special-offer-x: 107px;
+@special-offer-y: 57px;
+@special-offer-offset-x: -107px;
+@special-offer-offset-y: -57px;
+@special-offer-width: 24px;
+@special-offer-height: 23px;
+@special-offer-total-width: 155px;
+@special-offer-total-height: 131px;
+@special-offer-image: '../images/sprite.png';
+@special-offer: 107px 57px -107px -57px 24px 23px 155px 131px '../images/sprite.png' 'special-offer';
+@spritesheet-width: 155px;
+@spritesheet-height: 131px;
+@spritesheet-image: '../images/sprite.png';
+@spritesheet-sprites: @angle1 @angle2 @bag-button @blue-bag @cheked-price-left @cheked-price-right @current-price-circle-left @current-price-circle-right @hover-price-left @hover-price-right @like @new-price-circle-left @new-price-circle-right @old-price-circle-left @old-price-circle-right @sale-bg @sale-circle-right @special-offer;
+@spritesheet: 155px 131px '../images/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
